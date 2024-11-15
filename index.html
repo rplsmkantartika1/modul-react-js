@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Codelabs Landing Page</title>
+    <style>
+      /* Reset some default styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      /* Main container */
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        background-color: #f4f4f9;
+        color: #333;
+      }
+
+      /* Header styling */
+      header {
+        width: 100%;
+        max-width: 1200px;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+
+      header p {
+        font-size: 1.2em;
+        color: #666;
+      }
+
+      /* Card container styling */
+      .card-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        width: 100%;
+        max-width: 1200px;
+        padding: 20px;
+      }
+
+      /* Card styling */
+      .card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        transition: transform 0.2s;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+      }
+
+      .card img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+      }
+
+      .card-content {
+        padding: 15px;
+      }
+
+      .card-content h3 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+      }
+
+      .card-content p {
+        color: #777;
+        font-size: 0.9em;
+        line-height: 1.5;
+      }
+
+      .card-content a {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 15px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.2s;
+      }
+
+      .card-content a:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>Welcome to My Codelabs</h1>
+      <p>
+        Explore our tutorials and learn step-by-step through hands-on coding
+        labs.
+      </p>
+    </header>
+
+    <!-- Card Container -->
+    <div class="card-container">
+      <!-- Card 1 -->
+      <div class="card">
+        <img src="https://via.placeholder.com/250x150" alt="Tutorial 1" />
+        <div class="card-content">
+          <h3>How to Write a Codelab</h3>
+          <p>Learn the essentials of creating an effective Codelab tutorial.</p>
+          <a href="#">Start Tutorial</a>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <img src="https://via.placeholder.com/250x150" alt="Tutorial 2" />
+        <div class="card-content">
+          <h3>JavaScript Basics</h3>
+          <p>
+            A beginner's guide to JavaScript programming and essential concepts.
+          </p>
+          <a href="#">Start Tutorial</a>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <img src="https://via.placeholder.com/250x150" alt="Tutorial 3" />
+        <div class="card-content">
+          <h3>HTML & CSS Fundamentals</h3>
+          <p>
+            Learn how to structure web pages with HTML and style them with CSS.
+          </p>
+          <a href="#">Start Tutorial</a>
+        </div>
+      </div>
+
+      <!-- Add more cards as needed -->
+    </div>
+  </body>
+</html>

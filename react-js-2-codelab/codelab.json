@@ -1,0 +1,25 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2024-11-15T23:19:58+07:00",
+  "id": "react-js-2-codelab",
+  "duration": 8,
+  "title": "Tutorial React 2 JS",
+  "authors": "Putra",
+  "summary": "Tutorial React JS 2",
+  "source": "readme2.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "web"
+  ],
+  "tags": [
+    "medium"
+  ],
+  "feedback": "https://s.id/alamzah",
+  "url": "react-js-2-codelab"
+}
