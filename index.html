@@ -1,145 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Codelabs Landing Page</title>
-    <style>
-      /* Reset some default styles */
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: Arial, sans-serif;
-      }
-
-      /* Main container */
-      body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-        background-color: #f4f4f9;
-        color: #333;
-      }
-
-      /* Header styling */
-      header {
-        width: 100%;
-        max-width: 1200px;
-        text-align: center;
-        padding: 20px 0;
-      }
-
-      header h1 {
-        font-size: 2.5em;
-        margin-bottom: 10px;
-      }
-
-      header p {
-        font-size: 1.2em;
-        color: #666;
-      }
-
-      /* Card container styling */
-      .card-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 20px;
-        width: 100%;
-        max-width: 1200px;
-        padding: 20px;
-      }
-
-      /* Card styling */
-      .card {
-        background-color: #fff;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        overflow: hidden;
-        transition: transform 0.2s;
-      }
-
-      .card:hover {
-        transform: translateY(-5px);
-      }
-
-      .card img {
-        width: 100%;
-        height: 150px;
-        object-fit: cover;
-      }
-
-      .card-content {
-        padding: 15px;
-      }
-
-      .card-content h3 {
-        font-size: 1.5em;
-        margin-bottom: 10px;
-      }
-
-      .card-content p {
-        color: #777;
-        font-size: 0.9em;
-        line-height: 1.5;
-      }
-
-      .card-content a {
-        display: inline-block;
-        margin-top: 15px;
-        padding: 10px 15px;
-        background-color: #007bff;
-        color: #fff;
-        text-decoration: none;
-        border-radius: 4px;
-        transition: background-color 0.2s;
-      }
-
-      .card-content a:hover {
-        background-color: #0056b3;
-      }
-    </style>
+    <title>RPL - Modul Pembelajaran SMK Antartika 1</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Course Project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo-smartone-removebg-preview.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/styles/bootstrap4/bootstrap.min.css"
+    />
+    <link
+      href="assets/plugins/fontawesome-free-5.0.1/css/fontawesome-all.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/plugins/OwlCarousel2-2.2.1/owl.carousel.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/plugins/OwlCarousel2-2.2.1/owl.theme.default.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/plugins/OwlCarousel2-2.2.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/styles/main_styles.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/styles/responsive.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/styles/elements_styles.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/styles/elements_responsive.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/styles/courses_styles.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/styles/courses_responsive.css"
+    />
   </head>
   <body>
-    <!-- Header Section -->
-    <header>
-      <h1>Modul React JS</h1>
-      <p>
-        Explore our tutorials and learn step-by-step through hands-on coding
-        labs.
-      </p>
-    </header>
+    <div class="super_container">
+      <!-- Header -->
 
-    <!-- Card Container -->
-    <div class="card-container">
-      <!-- Card 1 -->
+      <header class="header d-flex flex-row">
+        <div class="header_content d-flex flex-row align-items-center">
+          <!-- Logo -->
+          <div class="logo_container">
+            <div class="logo">
+              <img
+                src="/assets/images/logo-smartone-removebg-preview.png"
+                alt=""
+              />
+              <!-- <span>course</span> -->
+            </div>
+          </div>
 
-      <!-- Card 2 -->
-      <div class="card">
-        <img src="https://via.placeholder.com/250x150" alt="Tutorial 2" />
-        <div class="card-content">
-          <h3>React JS Tutorial 1</h3>
-          <p>
-            A beginner's guide to JavaScript programming and essential concepts.
-          </p>
-          <a href="react-js-codelab/">Start Tutorial</a>
+          <nav class="main_nav_container">
+            <div class="main_nav">
+              <ul class="main_nav_list">
+                <li class="main_nav_item">
+                  <a href="https://rplsmkantartika1.github.io/">Home</a>
+                </li>
+                <li class="main_nav_item">
+                  <a
+                    href="https://rplsmkantartika1.github.io/modul"
+                    class="active"
+                    >Modul</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <!-- <div class="header_side d-flex flex-row justify-content-center align-items-center">
+        <img src="/images/phone-call.svg" alt="" />
+        <span>+43 4566 7788 2457</span>
+      </div> -->
+
+        <!-- Hamburger -->
+        <div class="hamburger_container">
+          <i class="fas fa-bars trans_200"></i>
+        </div>
+      </header>
+
+      <!-- Menu -->
+      <div class="menu_container menu_mm">
+        <!-- Menu Close Button -->
+        <div class="menu_close_container">
+          <div class="menu_close"></div>
+        </div>
+
+        <!-- Menu Items -->
+        <div class="menu_inner menu_mm">
+          <div class="menu menu_mm">
+            <ul class="menu_list menu_mm text-uppercase">
+              <li class="menu_item menu_mm">
+                <a href="https://rplsmkantartika1.github.io/">Home</a>
+              </li>
+              <li class="menu_item menu_mm">
+                <a href="https://rplsmkantartika1.github.io/modul">Modul</a>
+              </li>
+            </ul>
+
+            <!-- Menu Social -->
+
+            <!-- <div class="menu_copyright menu_mm">Colorlib All rights reserved</div> -->
+          </div>
         </div>
       </div>
-
-      <!-- Card 2 -->
-      <div class="card">
-        <img src="https://via.placeholder.com/250x150" alt="Tutorial 2" />
-        <div class="card-content">
-          <h3>React JS Tutorial 2</h3>
-          <p>
-            A beginner's guide to JavaScript programming and essential concepts.
-          </p>
-          <a href="react-js-2-codelab/">Start Tutorial</a>
+      <main>
+        <div class="home">
+          <div class="home_background_container prlx_parent">
+            <div
+              class="home_background prlx"
+              style="background-image: url(assets/images/react-tp.png)"
+            ></div>
+          </div>
+          <div class="home_content">
+            <h1>React JS</h1>
+          </div>
         </div>
-      </div>
 
-      <!-- Add more cards as needed -->
+        <!-- Popular -->
+
+        <div class="popular page_section">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="section_title text-center">
+                  <h1>List Modul</h1>
+                </div>
+              </div>
+            </div>
+
+            <div class="row course_boxes">
+              <!-- Popular Course Item -->
+              <div class="col-lg-4 course_box">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="assets/images/react.png"
+                    alt="react"
+                  />
+                  <div class="card-body text-center">
+                    <div class="card-title mb-4">
+                      <a href="react-js-codelab/">Tutorial 1</a>
+                    </div>
+                    <div class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Iusto tempora unde nemo debitis aliquid explicabo
+                      accusamus quos assumenda? Magni, debitis.
+                    </div>
+                  </div>
+                  <div
+                    class="price_box d-flex justify-content-around px-0 flex-row align-items-center"
+                  >
+                    <div class="course_author_image">
+                      <img
+                        class="img-fluid"
+                        src="assets/images/user.png"
+                        alt="user"
+                      />
+                    </div>
+                    <div class="course_author_name">
+                      Luthfi Firmansyah <span>Author</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 course_box">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="assets/images/react.png"
+                    alt="react"
+                  />
+                  <div class="card-body text-center">
+                    <div class="card-title mb-4">
+                      <a href="react-js-2-codelab/">Tutorial 2</a>
+                    </div>
+                    <div class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Iusto tempora unde nemo debitis aliquid explicabo
+                      accusamus quos assumenda? Magni, debitis.
+                    </div>
+                  </div>
+                  <div
+                    class="price_box d-flex justify-content-around px-0 flex-row align-items-center"
+                  >
+                    <div class="course_author_image">
+                      <img
+                        class="img-fluid"
+                        src="assets/images/user.png"
+                        alt="user"
+                      />
+                    </div>
+                    <div class="course_author_name">
+                      Luthfi Firmansyah <span>Author</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer pt-0">
+        <div class="container">
+          <!-- Newsletter -->
+
+          <!-- Footer Content -->
+
+          <!-- Footer Copyright -->
+
+          <div
+            class="footer_bar d-flex flex-column flex-sm-row align-items-center"
+          >
+            <div class="footer_copyright">
+              <span
+                ><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <span v-text="createdYear"></span>
+                All rights reserved
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span
+              >
+            </div>
+            <div class="footer_social ml-sm-auto">
+              <ul class="menu_social">
+                <li
+                  class="menu_social_item"
+                  v-for="(item, i) in sosmed"
+                  :key="i"
+                >
+                  <a target="_blank" :href="item.link"
+                    ><i :class="item.class"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
+
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/styles/bootstrap4/popper.js"></script>
+    <script src="assets/styles/bootstrap4/bootstrap.min.js"></script>
+    <script src="assets/plugins/greensock/TweenMax.min.js"></script>
+    <script src="assets/plugins/greensock/TimelineMax.min.js"></script>
+    <script src="assets/plugins/scrollmagic/ScrollMagic.min.js"></script>
+    <script src="assets/plugins/greensock/animation.gsap.min.js"></script>
+    <script src="assets/plugins/greensock/ScrollToPlugin.min.js"></script>
+    <script src="assets/plugins/scrollTo/jquery.scrollTo.min.js"></script>
+    <script src="assets/plugins/easing/easing.js"></script>
+    <script src="assets/js/courses_custom.js"></script>
   </body>
 </html>
